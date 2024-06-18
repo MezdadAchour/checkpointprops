@@ -2,7 +2,7 @@ const players = [
   {
     nom: "Giannis Anteto",
     equipe: "Milwaukee Bucks",
-    nationalite: "Grece",
+    nationalite: "Grèce",
     numeroMaillot: 34,
     age: 28,
     imageUrl:

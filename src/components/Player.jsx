@@ -35,4 +35,12 @@ function Player({nom, equipe, nationalite, numeroMaillot, age, imageUrl}) {
   );
 }
 
+Player.defaultProps = {
+  nom: 'Nom du joueur',
+  equipe: 'Équipe du joueur',
+  nationalite: 'Nationalité du joueur',
+  numeroMaillot: 'N/A',
+  age: 'Âge du joueur',
+  imageUrl: 'https://via.placeholder.com/150',
+};
 export default Player;
