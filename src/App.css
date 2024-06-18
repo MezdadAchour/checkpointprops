@@ -1,0 +1,81 @@
+/* Reset des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles pour le corps de la page */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d2691e;
+  color: #2c1711;
+}
+
+/* Styles pour le conteneur principal */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* affichage en ligne */
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Styles pour les boutons */
+button {
+  background-color: #7c19005d;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+  transition:all 500ms;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles pour les cartes */
+.card {
+  background-color: #e6e1df;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+  margin-bottom: 20px;
+  transition:all 500ms;
+
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(1, 9, 46, 0.89);
+}
+img {
+  height: 60vh;
+  width: 17rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.card-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d2691e;
+  text-transform: uppercase; 
+  margin-bottom: 0.5rem; 
+}
+
+.card .card-text {
+  font-size: 1.2rem; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #130800e5; 
+  margin-left: 1rem; 
+  margin-bottom: 0.25rem; 
+}
